@@ -1,13 +1,18 @@
 {
   "name": "code-assist",
   "displayName": "code-assist",
-  "description": "",
-  "version": "0.0.1",
+  "icon": "./images/code-assist.png",
+  "publisher": "digipodium",
+  "description": "Extension from Digipodium for Coding Assistant in MERN Stack and React Native",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.76.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m-triple-m/code-assist"},
   "categories": [
-    "Other"
+    "Other", "Assistant", "Snippets", "Programming Languages", "Formatters", "Automation"
   ],
   "activationEvents": [],
   "main": "./extension.js",
