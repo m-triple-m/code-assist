@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/m-triple-m/code-assist"},
   "categories": [
-    "Other", "Assistant", "Snippets", "Programming Languages", "Formatters", "Automation"
+    "Other", "Snippets", "Programming Languages", "Formatters"
   ],
   "activationEvents": [],
   "main": "./extension.js",
@@ -23,11 +23,24 @@
     }, {
       "command": "code-assist.createReactComponent",
       "title": "Create a New React Component File"
-    }],
+    }, {
+      "command": "code-assist.createImportReactComponent",
+      "title": "Create and Import a New React Component File"
+    }, {
+      "command": "code-assist.createReactComponentWithCSS",
+      "title": "Create a New React Component File with CSS"
+    }
+  ],
     "menus": {
       "explorer/context": [
         {
           "command": "code-assist.createReactComponent"
+        },
+        {
+          "command": "code-assist.createImportReactComponent"
+        },
+        {
+          "command": "code-assist.createReactComponentWithCSS"
         }
       ]
     }
